@@ -46,11 +46,11 @@ Links repositorio GitHub.
 
 
 2-	Catherine Natalia Box:
-
+https://github.com/Cathy-B/JavaFullStack_Awakelab/tree/main/ModuloV_EvaluacionFinal
 
 
 3-	Ricardo Olguin Lobos:
-
+https://github.com/LokoQlia/proyecto_final/tree/main/ModuloV_EvaluacionFinal
 
 -----------------------------
 Credenciales de Acceso
