@@ -85,7 +85,9 @@
                                     <nav> 
                                         <ul id="navigation">
                                             <li><a href="<%=request.getContextPath()%>/iniciopro">Inicio Profesional</a></li>
-                                            <li><a href="<%=request.getContextPath()%>/creavisita">Listar Visitas</a></li>                                                                                                                 
+                                            <li><a href="<%=request.getContextPath()%>/creavisita">Listar Visitas</a></li>
+                                            <li><a href="<%=request.getContextPath()%>/creaasesoria">Crear Asesoria</a></li>
+                                            <li><a href="<%=request.getContextPath()%>/listaasesoria">Listar Asesorias</a></li>                                                                                                                  
                                         </ul>
                                     </nav>
                                 </div>

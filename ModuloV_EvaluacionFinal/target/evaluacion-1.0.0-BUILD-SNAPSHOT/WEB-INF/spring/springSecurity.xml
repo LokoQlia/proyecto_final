@@ -9,10 +9,11 @@
 
 	<http auto-config="true">
 		<intercept-url pattern="/" access="permitAll" />
+		<intercept-url pattern="/creacontactopublico" access="permitAll" />
 		<intercept-url pattern="/acceder" access="permitAll" />
 		<intercept-url pattern="/iniciocli/**" access="hasRole('CLI')" />
 		<intercept-url pattern="/creacontacto" access="hasRole('CLI')" />
-		<intercept-url pattern="/procesacontacto/**" access="hasRole('CLI')" />
+		<intercept-url pattern="/procesacontacto/**" access="permitAll" />
 		<intercept-url pattern="/creacapacitacion/**" access="hasRole('CLI')" />
 		<intercept-url pattern="/listacapacitaciones/**" access="hasRole('CLI')" />
 		<intercept-url pattern="/procesacrear/**" access="hasRole('CLI')" />

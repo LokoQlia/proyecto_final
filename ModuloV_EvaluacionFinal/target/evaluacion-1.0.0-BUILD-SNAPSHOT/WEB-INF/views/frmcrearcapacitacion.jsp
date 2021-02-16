@@ -87,6 +87,7 @@
                                             <li><a href="<%=request.getContextPath()%>/creacontacto">Contacto</a></li>                                                                                                                 
                                             <li><a href="<%=request.getContextPath()%>/creacapacitacion">Crear Capacitación</a></li>
                                             <li><a href="<%=request.getContextPath()%>/listacapacitaciones">Listar Capacitación</a></li>
+                                            <li><a href="<%=request.getContextPath()%>/agregarasistente">Administrar Asistentes</a></li>
                                         </ul>
                                     </nav>
                                 </div>

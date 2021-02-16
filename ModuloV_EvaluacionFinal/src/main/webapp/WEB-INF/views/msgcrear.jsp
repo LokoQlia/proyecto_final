@@ -141,6 +141,8 @@
 						<p><c:out value="${msgcrearpago}" /></p>
 						<p><c:out value="${msgcrearvis}" /></p>
 						<p><c:out value="${msgecrearcheck}" /></p>
+						<p><c:out value="${msgcrearase}" /></p>
+						<p><c:out value="${msgcrearasi}" /></p>
 						<br/><br/>
 						<a href='<c:out value="${pageContext.request.contextPath}" />/<c:out value="${redireccion}" />'>Ir a la pagina principal</a>
 

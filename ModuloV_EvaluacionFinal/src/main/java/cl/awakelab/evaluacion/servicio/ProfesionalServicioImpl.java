@@ -10,6 +10,7 @@ import cl.awakelab.evaluacion.modelo.Profesional;
 import cl.awakelab.evaluacion.modelo.ProfesionalRepositorio;
 
 
+
 @Service
 public class ProfesionalServicioImpl implements ProfesionalServicio{
 
@@ -41,6 +42,12 @@ public class ProfesionalServicioImpl implements ProfesionalServicio{
 		
 		List<Profesional> pro = pr.findAllByRunusuario(runusuario);
 		return pro;
+	}
+
+	@Override
+	public List<Profesional> listarProfesionales() {
+	
+		return (List<Profesional>) pr.findAll();
 	}
 
 	
